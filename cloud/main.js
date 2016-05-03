@@ -7,7 +7,7 @@ Parse.Cloud.define("hello", function(request, response) {
 Parse.Cloud.define("SendEmail", function(request, response) {
 
    var Mailgun = require('mailgun');
-Mailgun.initialize('sandbox56933a30ae88460a975e0668405d62ba.mailgun.org', 'key-3d838799058c118a82601599a16dcd75');
+Mailgun.initialize('sandboxd29592fd5a8a4d3396cfd318ed3d9213.mailgun.org', 'key-86301bee86e0779d3763ede0587d5502');
 
 Mailgun.sendEmail({
   to: request.params.to,
